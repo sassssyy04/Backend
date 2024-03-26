@@ -83,3 +83,6 @@ def are_files_identical(new_file_location, directory):
         if os.path.isfile(file_path) and filename != os.path.basename(new_file_location) and filecmp.cmp(new_file_location, file_path):
             return True
     return False
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
