@@ -17,6 +17,7 @@ origins = [
     "http://localhost",
     "http://localhost:8080",
     "http://localhost:3000"
+    "https://proud-mushroom-0a39b0a10.5.azurestaticapps.net/"
 ]
 
 app = FastAPI()
